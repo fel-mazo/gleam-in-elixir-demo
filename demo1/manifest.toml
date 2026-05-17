@@ -2,10 +2,13 @@
 # You typically do not need to edit this file
 
 packages = [
+  { name = "friendly_id", version = "2.1.0", build_tools = ["gleam"], requirements = ["gleam_stdlib", "glearray"], otp_app = "friendly_id", source = "hex", outer_checksum = "A3A29910F1D1A7A6C4717512527182B024E7B9699965404530B841769C14BDC8" },
   { name = "gleam_stdlib", version = "1.0.2", build_tools = ["gleam"], requirements = [], otp_app = "gleam_stdlib", source = "hex", outer_checksum = "0C5506589DF4C63DF5D6FFBB834562D6865C6C2AEE0019D7B37886BD6D128141" },
+  { name = "glearray", version = "2.1.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "glearray", source = "hex", outer_checksum = "C013E0F153E73F5D35609AA6F2570D41D2E35C0DD404E91E847859EE41CBC139" },
   { name = "gleeunit", version = "1.10.0", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleeunit", source = "hex", outer_checksum = "254B697FE72EEAD7BF82E941723918E421317813AC49923EE76A18C788C61E72" },
 ]
 
 [requirements]
+friendly_id = { version = ">= 2.1.0 and < 3.0.0" }
 gleam_stdlib = { version = ">= 0.44.0 and < 2.0.0" }
 gleeunit = { version = ">= 1.0.0 and < 2.0.0" }
