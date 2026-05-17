@@ -30,7 +30,8 @@ defmodule Demo1.MixProject do
   defp deps do
     [
       {:gleam_stdlib, "~> 1.0"},
-      {:gleeunit, "~> 1.0", only: [:dev, :test], runtime: false}
+      {:gleeunit, "~> 1.0", only: [:dev, :test], runtime: false},
+      {:friendly_id, "~> 2.1"}
     ]
   end
 end

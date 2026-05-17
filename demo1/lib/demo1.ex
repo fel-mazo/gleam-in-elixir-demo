@@ -19,4 +19,10 @@ defmodule Demo1 do
   def say_hi_from_gleam do
     :hello.hey()
   end
+
+  def gleam_packages do
+    generator = :friendly_id.new_generator() |> :friendly_id.set_generator_separator("X")
+
+    :friendly_id.generate(generator)
+  end
 end

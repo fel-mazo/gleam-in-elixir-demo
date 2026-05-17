@@ -1,4 +1,6 @@
 %{
+  "friendly_id": {:hex, :friendly_id, "2.1.0", "2be89ee99c0a655dfb02ee27bc4d8139bfc098c1bc6a2dc5b43aee8a98323b29", [:gleam], [{:gleam_stdlib, ">= 0.44.0 and < 2.0.0", [hex: :gleam_stdlib, repo: "hexpm", optional: false]}, {:glearray, ">= 2.1.1 and < 3.0.0", [hex: :glearray, repo: "hexpm", optional: false]}], "hexpm", "a3a29910f1d1a7a6c4717512527182b024e7b9699965404530b841769c14bdc8"},
   "gleam_stdlib": {:hex, :gleam_stdlib, "1.0.2", "4554718452e558f5cb45ef937295a5135d83f736958e4d2ea33c043e7ad62cc1", [:gleam], [], "hexpm", "0c5506589df4c63df5d6ffbb834562d6865c6c2aee0019d7b37886bd6d128141"},
+  "glearray": {:hex, :glearray, "2.1.1", "99ed681dabeb6920d8481ce917acb013135535d69d660ef0dd525e1fdbeeca70", [:gleam], [{:gleam_stdlib, ">= 0.37.0 and < 2.0.0", [hex: :gleam_stdlib, repo: "hexpm", optional: false]}], "hexpm", "c013e0f153e73f5d35609aa6f2570d41d2e35c0dd404e91e847859ee41cbc139"},
   "gleeunit": {:hex, :gleeunit, "1.10.0", "883ae194885ef1ee114b07f872dd50ab133e36c7b51fd580a1106efd84fed42f", [:gleam], [{:gleam_stdlib, ">= 1.0.0 and < 2.0.0", [hex: :gleam_stdlib, repo: "hexpm", optional: false]}], "hexpm", "254b697fe72eead7bf82e941723918e421317813ac49923ee76a18c788c61e72"},
 }
