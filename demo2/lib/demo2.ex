@@ -13,6 +13,6 @@ defmodule Demo2 do
 
   """
   def hello do
-    :world
+    :hey.hello()
   end
 end
