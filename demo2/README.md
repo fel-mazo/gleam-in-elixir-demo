@@ -1,21 +1,8 @@
-# Demo2
+# Demo2: maybe sometime soon 🤞 elixir itself
+## see this [pr](https://github.com/elixir-lang/elixir/pull/14262)
 
-**TODO: Add description**
+clone the right branch and compile it.
 
-## Installation
+using asdf (or whatever else) set the elixir version
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `demo2` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:demo2, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/demo2>.
-
+profit
